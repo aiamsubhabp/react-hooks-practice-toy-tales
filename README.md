@@ -39,3 +39,11 @@ can pass data to each other as well as where that information should be stored.
   should be sent in the body of the PATCH request, as a object:
   `{ likes: 10 }`), to update the toy on the server. Clicking on the button
   should also increase the number of likes on the DOM.
+
+## Hierarchy - PA
+
+- App
+  - Header
+  - ToyContainer
+    - ToyCard
+  - ToyForm
